@@ -17,10 +17,11 @@ for i in range(day):
     temp = int(input())
     if temp > 0:
         k += 1
+        if max < k:
+            max = k
     else:
         k = 0
-    if max < k:
-        max = k
+
 
 print(max)
 
