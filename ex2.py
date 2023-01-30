@@ -9,6 +9,7 @@
 # Input: 6 -> -20 30 -40 50 10 -10
 # Output: 2
 
+print("Введите количество дней:")
 day = int(input())
 k = 0
 max = 0
@@ -17,9 +18,9 @@ for i in range(day):
     if temp > 0:
         k += 1
     else:
-        if max < k:
-            max = k
         k = 0
+    if max < k:
+        max = k
 
 print(max)
 
