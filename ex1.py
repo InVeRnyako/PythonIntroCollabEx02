@@ -5,8 +5,6 @@
 # Input: 5
 # Output: 6
 
-
-
 print("Введите число n:")
 num = int(input())
 
